@@ -25,10 +25,10 @@
         "illuminate/contracts": "^11.0",
         "illuminate/support": "^11.0",
         "spatie/laravel-data": "^4.11.1",
-        "symfony/uid": "^7.1.6"
+        "symfony/uid": "^7.2.0"
     },
     "require-dev": {
-        "basecodeoy/standards": "^1.0.5"
+        "basecodeoy/standards": "^1.1.0"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
