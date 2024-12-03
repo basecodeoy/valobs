@@ -1,0 +1,63 @@
+{
+    "name": "basecodeoy/valobs",
+    "description": "A collection of commonly used value objects in applications.",
+    "license": "MIT",
+    "type": "library",
+    "keywords": [
+        "BaseCode Oy",
+        "laravel",
+        "intl"
+    ],
+    "authors": [
+        {
+            "name": "Brian Faust",
+            "email": "hello@basecode.sh",
+            "role": "Developer"
+        }
+    ],
+    "homepage": "https://github.com/basecodeoy/valobs",
+    "support": {
+        "issues": "https://github.com/basecodeoy/valobs/issues",
+        "source": "https://github.com/basecodeoy/valobs",
+        "security": "https://github.com/basecodeoy/valobs/blob/main/.github/SECURITY.md"
+    },
+    "require": {
+        "php": "^8.3",
+        "ext-ctype": "*",
+        "ext-mbstring": "*",
+        "basecodeoy/internationalization": "^1.0",
+        "brick/math": "^0.11.0",
+        "brick/money": "^0.8.1",
+        "illuminate/contracts": "^11.0",
+        "illuminate/support": "^11.0",
+        "spatie/laravel-data": "^4.11.1",
+        "symfony/uid": "^7.2.0"
+    },
+    "require-dev": {
+        "basecodeoy/standards": "^1.1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "BaseCodeOy\\Valobs\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "ergebnis/composer-normalize": true,
+            "infection/extension-installer": true,
+            "pestphp/pest-plugin": true,
+            "php-http/discovery": true,
+            "phpstan/extension-installer": true
+        },
+        "audit": {
+            "abandoned": "report"
+        },
+        "preferred-install": "dist",
+        "sort-packages": true
+    }
+}

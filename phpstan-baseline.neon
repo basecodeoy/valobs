@@ -1,0 +1,201 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Cannot call method in\\(\\) on iterable\\<SplFileInfo\\>\\.$#"
+			count: 1
+			path: .php-cs-fixer.php
+
+		-
+			message: "#^Construct empty\\(\\) is not allowed\\. Use more strict comparison\\.$#"
+			count: 3
+			path: src/Values/CubicCentimeter.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Valobs\\\\Values\\\\CubicCentimeter\\:\\:createFromCentimeterArray\\(\\) has parameter \\$dimensions with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Values/CubicCentimeter.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Valobs\\\\Values\\\\CubicCentimeter\\:\\:createFromDecimeterArray\\(\\) has parameter \\$dimensions with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Values/CubicCentimeter.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Valobs\\\\Values\\\\CubicCentimeter\\:\\:createFromMeterArray\\(\\) has parameter \\$dimensions with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Values/CubicCentimeter.php
+
+		-
+			message: "#^Construct empty\\(\\) is not allowed\\. Use more strict comparison\\.$#"
+			count: 3
+			path: src/Values/CubicDecimeter.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Valobs\\\\Values\\\\CubicDecimeter\\:\\:createFromCentimeterArray\\(\\) has parameter \\$dimensions with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Values/CubicDecimeter.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Valobs\\\\Values\\\\CubicDecimeter\\:\\:createFromDecimeterArray\\(\\) has parameter \\$dimensions with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Values/CubicDecimeter.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Valobs\\\\Values\\\\CubicDecimeter\\:\\:createFromMeterArray\\(\\) has parameter \\$dimensions with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Values/CubicDecimeter.php
+
+		-
+			message: "#^Construct empty\\(\\) is not allowed\\. Use more strict comparison\\.$#"
+			count: 3
+			path: src/Values/CubicMeter.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Valobs\\\\Values\\\\CubicMeter\\:\\:createFromCentimeterArray\\(\\) has parameter \\$dimensions with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Values/CubicMeter.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Valobs\\\\Values\\\\CubicMeter\\:\\:createFromDecimeterArray\\(\\) has parameter \\$dimensions with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Values/CubicMeter.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Valobs\\\\Values\\\\CubicMeter\\:\\:createFromMeterArray\\(\\) has parameter \\$dimensions with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Values/CubicMeter.php
+
+		-
+			message: "#^Cannot cast mixed to string\\.$#"
+			count: 1
+			path: src/Values/Email.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Valobs\\\\Values\\\\Email\\:\\:dataCastUsing\\(\\) has parameter \\$arguments with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Values/Email.php
+
+		-
+			message: "#^Method class@anonymous/src/Values/Email\\.php\\:39\\:\\:cast\\(\\) has parameter \\$creationContext with generic class Spatie\\\\LaravelData\\\\Support\\\\Creation\\\\CreationContext but does not specify its types\\: TData$#"
+			count: 1
+			path: src/Values/Email.php
+
+		-
+			message: "#^Cannot cast mixed to float\\.$#"
+			count: 1
+			path: src/Values/Latitude.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Valobs\\\\Values\\\\Latitude\\:\\:dataCastUsing\\(\\) has parameter \\$arguments with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Values/Latitude.php
+
+		-
+			message: "#^Method class@anonymous/src/Values/Latitude\\.php\\:46\\:\\:cast\\(\\) has parameter \\$creationContext with generic class Spatie\\\\LaravelData\\\\Support\\\\Creation\\\\CreationContext but does not specify its types\\: TData$#"
+			count: 1
+			path: src/Values/Latitude.php
+
+		-
+			message: "#^Cannot cast mixed to float\\.$#"
+			count: 1
+			path: src/Values/Longitude.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Valobs\\\\Values\\\\Longitude\\:\\:dataCastUsing\\(\\) has parameter \\$arguments with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Values/Longitude.php
+
+		-
+			message: "#^Method class@anonymous/src/Values/Longitude\\.php\\:46\\:\\:cast\\(\\) has parameter \\$creationContext with generic class Spatie\\\\LaravelData\\\\Support\\\\Creation\\\\CreationContext but does not specify its types\\: TData$#"
+			count: 1
+			path: src/Values/Longitude.php
+
+		-
+			message: "#^Cannot cast mixed to float\\.$#"
+			count: 1
+			path: src/Values/Percentage.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Valobs\\\\Values\\\\Percentage\\:\\:dataCastUsing\\(\\) has parameter \\$arguments with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Values/Percentage.php
+
+		-
+			message: "#^Method class@anonymous/src/Values/Percentage\\.php\\:46\\:\\:cast\\(\\) has parameter \\$creationContext with generic class Spatie\\\\LaravelData\\\\Support\\\\Creation\\\\CreationContext but does not specify its types\\: TData$#"
+			count: 1
+			path: src/Values/Percentage.php
+
+		-
+			message: "#^Cannot cast mixed to string\\.$#"
+			count: 1
+			path: src/Values/ShippingMethodIdentifier.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Valobs\\\\Values\\\\ShippingMethodIdentifier\\:\\:dataCastUsing\\(\\) has parameter \\$arguments with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Values/ShippingMethodIdentifier.php
+
+		-
+			message: "#^Method class@anonymous/src/Values/ShippingMethodIdentifier\\.php\\:57\\:\\:cast\\(\\) has parameter \\$creationContext with generic class Spatie\\\\LaravelData\\\\Support\\\\Creation\\\\CreationContext but does not specify its types\\: TData$#"
+			count: 1
+			path: src/Values/ShippingMethodIdentifier.php
+
+		-
+			message: "#^Short ternary operator is not allowed\\. Use null coalesce operator if applicable or consider using long ternary\\.$#"
+			count: 2
+			path: src/Values/ShippingMethodIdentifier.php
+
+		-
+			message: "#^Cannot cast mixed to string\\.$#"
+			count: 1
+			path: src/Values/ULID.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Valobs\\\\Values\\\\ULID\\:\\:dataCastUsing\\(\\) has parameter \\$arguments with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Values/ULID.php
+
+		-
+			message: "#^Method class@anonymous/src/Values/ULID\\.php\\:48\\:\\:cast\\(\\) has parameter \\$creationContext with generic class Spatie\\\\LaravelData\\\\Support\\\\Creation\\\\CreationContext but does not specify its types\\: TData$#"
+			count: 1
+			path: src/Values/ULID.php
+
+		-
+			message: "#^Cannot cast mixed to string\\.$#"
+			count: 1
+			path: src/Values/UUID.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Valobs\\\\Values\\\\UUID\\:\\:dataCastUsing\\(\\) has parameter \\$arguments with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Values/UUID.php
+
+		-
+			message: "#^Method class@anonymous/src/Values/UUID\\.php\\:43\\:\\:cast\\(\\) has parameter \\$creationContext with generic class Spatie\\\\LaravelData\\\\Support\\\\Creation\\\\CreationContext but does not specify its types\\: TData$#"
+			count: 1
+			path: src/Values/UUID.php
+
+		-
+			message: "#^Call to an undefined method Pest\\\\PendingCalls\\\\TestCall\\:\\:expect\\(\\)\\.$#"
+			count: 1
+			path: tests/ArchTest.php
+
+		-
+			message: "#^Access to an undefined property Illuminate\\\\Foundation\\\\Application\\:\\:\\$config\\.$#"
+			count: 6
+			path: tests/TestCase.php
+
+		-
+			message: "#^Parameter \\#1 \\$app \\(Illuminate\\\\Application\\) of method Tests\\\\TestCase\\:\\:getPackageProviders\\(\\) should be contravariant with parameter \\$app \\(Illuminate\\\\Foundation\\\\Application\\) of method Orchestra\\\\Testbench\\\\TestCase\\:\\:getPackageProviders\\(\\)$#"
+			count: 1
+			path: tests/TestCase.php
+
+		-
+			message: "#^Parameter \\#1 \\$path of method Illuminate\\\\Foundation\\\\Application\\:\\:useStoragePath\\(\\) expects string, string\\|false given\\.$#"
+			count: 1
+			path: tests/TestCase.php
+
+		-
+			message: "#^Parameter \\$app of method Tests\\\\TestCase\\:\\:getPackageProviders\\(\\) has invalid type Illuminate\\\\Application\\.$#"
+			count: 1
+			path: tests/TestCase.php
